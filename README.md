@@ -1,9 +1,9 @@
-# unix-like_command_line
-Nick April
-Operating Systems Assignment
-9/29/17
+# Unix-like Command Line
+Nick April <br/>
+Operating Systems Assignment <br/>
+9/29/17 <br/>
 
-A basic command line environment for interacting with a file system implemented with threads.
+This program is a basic command line environment for interacting with a file system implemented with threads.
 This program prints a simple prompt (“>   ”), accepts a command (or multiple commands separated by pipes), 
 and prints the output from that command (if any).
 
