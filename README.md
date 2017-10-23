@@ -1,6 +1,6 @@
 # unix-like_command_line
 Nick April
-Operating Systems Assignment 1
+Operating Systems Assignment
 9/29/17
 
 A basic command line environment for interacting with a file system implemented with threads.
@@ -28,6 +28,7 @@ General Commands
 
 *** Example1: ***
 
+********************************
 Welcome to the Unix-ish command line.
 > cat hello.txt
 Hello 
@@ -51,6 +52,7 @@ output.txt
 src
 > exit
 Thank you for using the Unix-ish command line. Goodbye!
+********************************
 
 *** Example2: ***
 Welcome to the Unix-ish command line.
