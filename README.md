@@ -28,8 +28,8 @@ General Commands
 
 Welcome to the Unix-ish command line.   <br/>
 \> cat hello.txt <br/>
-Hello     <br/>
-world!    <br/>
+&nbsp;&nbsp;&nbsp;Hello     <br/>
+&nbsp;&nbsp;&nbsp;world!    <br/>
 \> not-a-command    <br/>
 The command [not-a-command] was not recognized.   <br/>
 \> cat hello.txt | grep world           <br/>
