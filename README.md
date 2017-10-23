@@ -23,12 +23,9 @@ General Commands
 - repl_jobs (prints a list of alive processes)
 
 ********************************
-          Examples                         
+###Example 1                         
 ********************************
 
-*** Example1: ***
-
-********************************
 Welcome to the Unix-ish command line.   <br/>
 \> cat hello.txt <br/>
 Hello     <br/>
@@ -41,20 +38,22 @@ world!    <br/>
 \> cat output.txt   <br/>
 world!    <br/>
 \> ls     <br/>
-bin       <br/>
-hello.txt           <br/>
-output.txt          <br/>
-src       <br/>
+&nbsp;&nbsp;bin       <br/>
+&nbsp;&nbsp;hello.txt           <br/>
+&nbsp;&nbsp;output.txt          <br/>
+&nbsp;&nbsp;src       <br/>
 \> exit   <br/>
 Thank you for using the Unix-ish command line. Goodbye!     <br/>
+
+********************************
+###Example 2 
 ********************************
 
-*** Example2: ***   <br/>
 Welcome to the Unix-ish command line.   <br/>
 \> cat Amazon-reviews.txt | grep amazing \> amazing.txt &   <br/>
 \> cat Amazon-reviews.txt | grep defective \> defective.txt &         <br/>
 \> repl_jobs        <br/>
-    1. cat Amazon-reviews.txt | grep amazing \> amazing.txt &         <br/>
-    2. cat Amazon-reviews.txt | grep defective \> defective.txt &     <br/>
+ &nbsp;&nbsp;   1. cat Amazon-reviews.txt | grep amazing \> amazing.txt &         <br/>
+ &nbsp;&nbsp;   2. cat Amazon-reviews.txt | grep defective \> defective.txt &     <br/>
 \> exit   <br/>
 Thank you for using the Unix-ish command line. Goodbye!
