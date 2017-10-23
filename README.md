@@ -29,37 +29,32 @@ General Commands
 *** Example1: ***
 
 ********************************
-Welcome to the Unix-ish command line.
-> cat hello.txt <br/>
+Welcome to the Unix-ish command line.   <br/>
+\> cat hello.txt <br/>
 Hello     <br/>
 world!    <br/>
-> not-a-command
-The command [not-a-command] was not recognized.
-> cat hello.txt | grep world
-world!
-> cat hello.txt | grep world > output.txt
-> cat output.txt
-world!
-> ls
-.classpath
-.DS_Store
-.git
-.gitignore
-.project
-bin
-hello.txt
-output.txt
-src
-> exit
-Thank you for using the Unix-ish command line. Goodbye!
+\> not-a-command    <br/>
+The command [not-a-command] was not recognized.   <br/>
+\> cat hello.txt | grep world           <br/>
+world!    <br/>
+\> cat hello.txt | grep world \> output.txt       <br/>
+\> cat output.txt   <br/>
+world!    <br/>
+\> ls     <br/>
+bin       <br/>
+hello.txt           <br/>
+output.txt          <br/>
+src       <br/>
+\> exit   <br/>
+Thank you for using the Unix-ish command line. Goodbye!     <br/>
 ********************************
 
-*** Example2: ***
-Welcome to the Unix-ish command line.
-> cat Amazon-reviews.txt | grep amazing > amazing.txt &
-> cat Amazon-reviews.txt | grep defective > defective.txt & 
-> repl_jobs
-    1. cat Amazon-reviews.txt | grep amazing > amazing.txt &
-    2. cat Amazon-reviews.txt | grep defective > defective.txt &
-> exit
+*** Example2: ***   <br/>
+Welcome to the Unix-ish command line.   <br/>
+\> cat Amazon-reviews.txt | grep amazing \> amazing.txt &   <br/>
+\> cat Amazon-reviews.txt | grep defective \> defective.txt &         <br/>
+\> repl_jobs        <br/>
+    1. cat Amazon-reviews.txt | grep amazing \> amazing.txt &         <br/>
+    2. cat Amazon-reviews.txt | grep defective \> defective.txt &     <br/>
+\> exit   <br/>
 Thank you for using the Unix-ish command line. Goodbye!
