@@ -1,8 +1,8 @@
+# unix-like_command_line
 Nick April
 Operating Systems Assignment 1
 9/29/17
 
-# unix-like_command_line
 A basic command line environment for interacting with a file system implemented with threads.
 This program prints a simple prompt (“>   ”), accepts a command (or multiple commands separated by pipes), 
 and prints the output from that command (if any).
@@ -23,7 +23,7 @@ General Commands
 - repl_jobs (prints a list of alive processes)
 
 ********************************
-**          Examples          **               
+          Examples                         
 ********************************
 
 *** Example1: ***
