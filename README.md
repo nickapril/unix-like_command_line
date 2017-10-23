@@ -16,7 +16,7 @@ Text Manipulating Commands:
 - grep
 - wc
 - uniq
-- >
+- \>
 General Commands
 - exit
 - & (entered at the end of a command to allow the user to enter an additional command while the previous one runs in the background)
@@ -31,7 +31,7 @@ General Commands
 ********************************
 Welcome to the Unix-ish command line.
 > cat hello.txt
-Hello 
+Hello
 world!
 > not-a-command
 The command [not-a-command] was not recognized.
